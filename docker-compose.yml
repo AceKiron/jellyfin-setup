@@ -15,6 +15,7 @@ services:
     volumes:
       - ./sftpgo/data:/srv/sftpgo
       - ./sftpgo/home:/var/lib/sftpgo
+      - /mnt:/usb
     ports:
       - 8080:8080
       - 2022:2022
